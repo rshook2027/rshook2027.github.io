@@ -1,0 +1,140 @@
+#vid {
+    margin-left: 385px;
+    width: calc(100% - 385px);
+    padding-right: 0px;
+}
+video {
+    display: block;
+    width: 94%;
+    margin: 3%;
+}
+.size {
+    margin-left: 385px;
+    height: auto;
+    width: calc(100% - 385px);
+    z-index: 10;
+    position: relative;
+}
+#q1 {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-image: url(Untitled\ design.png);
+    background-size: cover;
+    background-position-x: left;
+}
+#q1 .card-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 4vw;
+    height: auto;
+    z-index: inherit;
+}
+
+#q1 .card-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5vw;
+    z-index: inherit;
+}
+#q2 {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-image: url(seed.png);
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: center;
+}
+#q2 .card-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 4vw;
+    z-index: inherit;
+}
+
+#q2 .card-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5vw;
+    z-index: inherit;
+}
+#q3 {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-image: url(sunset.png);
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: center;
+}
+#q3 .card-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 4vw;
+    z-index: inherit;
+}
+
+#q3 .card-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5vw;
+    text-align: right;
+    z-index: inherit;
+}
+#t1 .card-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 5vw;
+    z-index: inherit;
+}
+
+#t1 .card-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5vw;
+    z-index: inherit;
+}
+#quote .card-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 3vw;
+    text-align: left;
+    opacity:100%;
+    background-color: rgba(0, 0, 0, 0.43);
+    z-index: inherit;
+    color: white;
+}
+
+#quote .card-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 4vw;
+    opacity: 75%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    z-index: inherit;
+}
+
+#quote .card-title-secondary {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 5vw;
+    text-align: left;
+    background-color: black;
+    color: white;
+    z-index: inherit;
+}
+@media only screen and (max-width: 390px)and (min-width: 1px) {
+    .size {
+        margin-left: 0px;
+        height: auto;
+        width: 100%;
+    }
+    #vid {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 391px){
+    .size {
+        margin-left: 200px;
+        height: auto;
+        width: calc(100% - 200px);
+    }
+    #addpadding {
+        display: block;
+        height: 240px;
+    }
+    #vid {
+        margin-left: 200px;
+        width: calc(100% - 200px);
+        max-width: calc(100% - 200px);
+    }
+}

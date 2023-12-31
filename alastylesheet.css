@@ -1,0 +1,66 @@
+#club1 {
+    background-color: rgba(11, 120, 125, 0.657);
+}
+#club1 .card-body {
+    background-color: rgba(11, 120, 125, 0.657);
+
+}
+
+#club1 .card-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: calc(0.5vw + 13px);
+}
+#club1 .card-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: calc(3vw + 60px);
+    color:aliceblue;
+}
+
+#club2 {
+    background-color: rgba(0, 0, 0, 0.846);
+}
+
+#club2 .card-body {
+    background-color: rgba(0, 0, 0, 0.846);
+    color: white;
+}
+#club2 .card-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: calc(0.5vw + 13px);
+}
+#club2 .card-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: calc(3vw + 60px);
+    color: rgb(83, 196, 201);
+}
+
+#club3 {
+    background-color: rgba(227, 80, 1, 0.657);
+}
+
+#club3 .card-body {
+    background-color: rgba(227, 80, 1, 0.657);
+
+}
+#club3 .card-text {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(117, 40, 9);
+    font-size: calc(0.5vw + 13px);
+}
+#club3 .card-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: calc(3vw + 60px);
+}
+#club1, #club2, #club3 {
+    padding-left: 385px;
+}
+@media only screen and (max-width: 768px) and (min-width: 391px){
+    #club1, #club2, #club3 {
+        padding-left: 200px;
+    }
+}
+@media only screen and (max-width: 390px)and (min-width: 1px){
+    #club1, #club2, #club3 {
+        padding-left: 0px;
+    }
+}

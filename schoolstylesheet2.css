@@ -1,0 +1,331 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    position: absolute;
+}
+#backround {
+    width: 100%;
+    height: 100%;
+    background-image: url(bg.PNG);
+    opacity: 0.9;
+    background-size: cover;
+    position: fixed;
+    z-index: 0;
+    display: block;
+}
+#header{
+    width: 100%;
+    overflow:visible;
+    color: white;
+    display: flex;
+    position: relative;
+    z-index: 4;
+}
+#bannernav {
+    padding-left: 385px;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+.nav-link:hover {
+    background-color: black;
+    border-radius: 6px;
+}
+#op {
+    border-radius: 30px;
+}
+#IHATECS {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255) solid;
+    color: rgb(0, 0, 0);
+}
+#IHATECS:hover {
+    background-color: black;
+    color: white;
+}
+
+#fff {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+#everything {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    min-height: 100%;
+    position: relative;
+}
+#banner {
+    background-image: url(Banner.png);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display:block;
+}
+#bottom {
+    position: relative;
+}
+footer {
+    padding-left: 425px;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    max-height: 500px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 75px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    z-index:1;
+}
+.row {
+align-items: center;
+}
+#hi{
+    background-image: url(Banner.png);
+    background-color: rgba(10, 230, 219, 0.144);
+}
+#op {
+    background-color: rgba(10, 230, 219, 0.295);
+}
+#logo {
+    background-position-y: center;
+    background-image: url(LBP_logotrans.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 385px;
+    height: 385px;
+    position: fixed;
+    z-index: 5;
+    display: block;
+}
+
+.left {
+    position: relative;
+    left: 0;
+}
+.leftevents {
+    overflow-y: scroll;
+    position: fixed;
+    padding-top: 310px;
+    height: 100%;
+    width: 385px;
+    background-color: rgb(0, 42, 42);
+    z-index: 2;
+}
+.leftevents div {
+    padding-left: 50px;
+}
+.imagesize {
+    max-height: 180px;
+    width:  270px;
+}
+.leftevents img {
+    position: relative;
+}
+.leftevents p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    position: relative; 
+}
+.needmargin {
+    margin-left: 385px;
+    padding: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.imageheight {
+    height: 50px;
+    width: 50px;
+}
+.hhh {
+    text-align: center;
+    overflow-x: auto;
+}
+.hhh p { 
+    font-size: 18px;
+}
+
+.main h1{ 
+color: black;
+position: relative; top: 15px; left: 15px;
+}
+@media only screen and (max-width: 390px)and (min-width: 1px){
+    body {
+        max-width: 100%;
+        width: 100%;
+    }
+    .needmargin {
+        margin-left: 0px;
+        padding: 10px;
+    }
+    #logo {
+        position: absolute;
+        min-width: 100px;
+        height: 100px;
+        z-index: 1000;
+    }
+    #banner {
+        height: 0px;
+    }
+    #bannernav {
+        padding-left: 0px;
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    #header {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    #hi {
+        width: 100%;
+    }
+    #bottom {
+        width: 100%; 
+        background-color: black;
+    }
+    footer {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        margin-left: 0px;
+        overflow-y: scroll;
+    }
+    #everything {
+        width: 100%;
+    }
+    .leftevents {
+        width: 100px;
+        display: none;
+    }
+    .left {
+        position: fixed;
+        height: 100px;
+        width: 10px;
+        opacity: 0;
+        display: block;
+        z-index: 10000;
+    }
+    .left:hover + .leftevents {
+        display: block;
+        background-color: black;
+    }
+    #hi {
+        padding-top: 30px;
+        min-width: 100%;
+    }
+    .imagesize {
+        max-height: 80px;
+        width:  115px;
+}
+    .zzzz {
+        margin-bottom: 10px;
+    }
+
+}
+@media only screen and (max-width: 768px) and (min-width: 391px){
+    body {
+        width: 100%;
+        max-width: 768px;
+    }
+    #logo {
+        min-width: 200px;
+        height: 200px;
+    }
+    .hhh p { 
+        font-size: 13px;
+    }
+    .hhh h4 { 
+        font-size: 13px;
+    }
+    #banner {
+        height: 0px;
+        width: 568px;
+    }
+    #addpadding {
+        display: block;
+        width: 100%;
+        height: 260px;
+    }
+    #bannernav {
+        padding-left: 200px;
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    #header {
+        width: 100%;
+    }
+    #hi {
+        width: 100%;
+    }
+    .zzzz {
+        margin-bottom: 10px;
+    }
+    #bottom {
+        width: 100%;
+    }
+    footer {
+        overflow-y: auto;
+        position: fixed;
+        z-index: 60;
+        height: 240px;
+        width: 768px;
+        padding-left: 25px;
+    }
+    .needmargin {
+        margin-left: 200px;
+        padding: 10px;
+        max-width: 100%;
+    }
+    .needmargin .row {
+        max-width: 100%;
+        width: 100%;
+    }
+    #everything {
+        width: 768px;
+    }
+    .leftevents {
+        padding-top: 210px;
+        width: 200px;
+    }
+    #hi {
+        margin-top: -30px;
+    }
+    .imagesize {
+        max-height: 120px;
+        width:  175px;
+}
+.leftevents div {
+    padding-left: 15px;
+}
+#PAGES {
+    position: absolute;
+    margin-left: 200px;
+    font-size: 250%;
+    z-index: 5;
+}
+}
+@media only screen and (max-width: 1920px) and (min-width: 769px){
+    body {
+        overflow-x: scroll;
+        position: absolute;
+    }
+
+}
+@media only screen and (max-width: 951px) and (min-width: 740px){
+    #PAGES {
+        font-size: 250%;
+    }
+}

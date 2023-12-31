@@ -1,0 +1,365 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    position: absolute;
+}
+#backround {
+    width: 100%;
+    height: 100%;
+    background-image: url(bg.PNG);
+    opacity: 0.9;
+    background-size: cover;
+    position: fixed;
+    z-index: 0;
+    display: block;
+}
+.padd {
+    padding-top: 2px;
+
+}
+.paddi{
+    padding-top:2rem;
+}
+#header{
+    width: 100%;
+    overflow:visible;
+    color: white;
+    display: flex;
+    position: relative;
+    z-index: 4;
+}
+#bannernav {
+    padding-left: 385px;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+.nav-link:hover {
+    background-color: black;
+    border-radius: 6px;
+}
+#op {
+    padding: 2%;
+    border-radius: 30px;
+}
+#IHATECS {
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255) solid;
+    color: rgb(0, 0, 0);
+}
+#IHATECS:hover {
+    background-color: black;
+    color: white;
+}
+#fff {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+#everything {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    min-height: 100%;
+    position: relative;
+}
+#banner {
+    background-image: url(Banner.png);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display:block;
+}
+#bottom {
+    position: relative;
+    background-color: black;
+}
+footer {
+    padding-left: 425px;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    max-height: 500px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 75px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    z-index:1;
+    overflow-y: scroll;
+}
+.row {
+align-items: center;
+}
+#hi{
+    background-image: url(Banner.png);
+    background-color: rgba(10, 230, 219, 0.144);
+}
+#op {
+    background-color: rgba(10, 230, 219, 0.295);
+}
+#logo {
+    background-position-y: center;
+    background-image: url(LBP_logotrans.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 385px;
+    height: 385px;
+    position: fixed;
+    z-index: 5;
+    display: block;
+}
+.left {
+    position: relative;
+    left: 0;
+}
+.leftevents {
+    overflow-y: scroll;
+    position: fixed;
+    padding-top: 310px;
+    height: 100%;
+    width: 385px;
+    background-color: rgb(0, 42, 42);
+    z-index: 2;
+}
+.leftevents div {
+    padding-left: 50px;
+}
+.events {
+    padding-bottom: 250px;
+}
+.imagesize {
+    max-height: 180px;
+    width:  270px;
+}
+.leftevents img {
+    position: relative;
+}
+.leftevents p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    position: relative; 
+}
+
+             .about {
+                margin-left: 400px;
+                position: relative;
+             }
+             .about a {
+                background-color: black;
+                color: white;
+                border-radius: 20px;
+                font-family: 'Varela Round', sans-serif;
+
+             }
+             .content {
+                font-family: 'Varela Round', sans-serif;
+                margin-bottom: 30px;
+                padding-right: 0px;
+                padding-left: 0px;
+             }     
+                   
+             
+
+            #threeamna, #FOURPMNA {
+                margin-left: 385px;
+                width: calc(100% - 385px);
+            }
+            #threeamna .card {
+                background-image: url(4.svg);
+            }
+
+            #threeamna .card-title, #FOURPMNA .card-title  {
+                margin-left: auto;
+                margin-right: auto;
+                padding-top:40px;
+                font-size: calc(25px + 3vw);
+                font-family: 'Dela Gothic One', sans-serif;
+}
+            
+            
+            #threeamna .card-text {
+                font-family: 'Varela Round', sans-serif;
+                text-align:center;
+                font-size: calc(20px + 1vw);
+                padding-left: 40px;
+                background-color: rgb(26, 68, 74);
+                color: rgb(255, 255, 255);
+            }           
+            #FOURPMNA .card-text {
+                font-family: 'Varela Round', sans-serif;
+                text-align:center;
+                font-size: calc(20px + 1vw);
+                padding-left: 40px;
+                background-color: rgba(61, 39, 18, 0.797);
+                color: white;
+            }
+            #FOURPMNA .card {
+                background-image: url(5.svg);
+            }
+
+            #history {
+                padding: 2.5%;
+                width: 100%;
+                background-color:black;
+                text-align: center;
+            }
+            #historayyy .card {
+                background-image: url(history.png);
+            }
+            #historayyy {
+                margin-left: 385px;
+                width: calc(100% - 385px);
+            }
+
+            #historayyy .card-title {
+                margin-left: auto;
+                margin-right: auto;
+                padding-top:40px;
+                font-size: calc(25px + 3vw);
+                font-family: 'Dela Gothic One', sans-serif;
+}
+
+            #history .card1 .card-text, #history .card2 .card-text, #history .card3 .card-text {
+                font-size: calc(15px + 0.7vw);
+                font-family: 'Varela Round', sans-serif;
+                padding-top: 30px;
+                padding-right:20px;
+                padding-left:10px;
+                text-align:justify;
+                color:white;
+            }
+        
+            @media only screen and (max-width: 390px)and (min-width: 1px){
+                body {
+                    max-width: 100%;
+                    width: 100%;
+                }
+                #logo {
+                    position: absolute;
+                    min-width: 100px;
+                    height: 100px;
+                    z-index: 1000;
+                }
+                #banner {
+                    height: 0px;
+                }
+                #bannernav {
+                    padding-left: 0px;
+                    width: 100%;
+                }
+                header {
+                    width: 100%;
+                }
+                #header {
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 50px;
+                }
+                #backround {
+                    width: 100%;
+                }
+                #hi {
+                    width: 100%;
+                }
+                #bottom {
+                    width: 100%;
+                }
+                #threeamna, #FOURPMNA, #historayyy {
+                    margin-left: 0px;
+                    width: 100%;
+                }
+                footer {
+                    position: relative;
+                    display: flex;
+                    width: 100%;
+                    height: auto;
+                    padding-left: 0px;
+                }
+                #everything {
+                    width: 100%;
+                }
+                .leftevents {
+                    width: 100px;
+                    display: none;
+                }
+                .left {
+                    position: fixed;
+                    height: 100PX;
+                    width: 10px;
+                    opacity: 0;
+                    display: block;
+                    z-index: 10000;
+                }
+                .left:hover + .leftevents {
+                    display: block;
+                    background-color: black;
+                }
+                #hi {
+                    padding-top: 30px;
+                    min-width: 100%;
+                }
+                .imagesize {
+                    max-height: 80px;
+                    width:  115px;
+                }
+                .about {
+                    margin-left: 10px;
+                 }
+            }
+            @media only screen and (max-width: 768px) and (min-width: 391px){
+                #logo {
+                    min-width: 200px;
+                    height: 200px;
+                }
+                #banner {
+                    height: 0px;
+                }
+                #bannernav {
+                    padding-left: 200px;
+                }
+                footer {
+                    overflow-y: scroll;
+                    position: fixed;
+                    z-index: 600000;
+                    height: 240px;
+                    max-height: 240px;
+                    width: 100%;
+                    padding-left: 55px;
+                }
+                #threeamna, #FOURPMNA, #historayyy {
+                    margin-left: 200px;
+                    width: calc(100% - 200px);
+                }
+                #historayyy .card-title {
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                }
+                .leftevents {
+                    padding-top: 210px;
+                    width: 200px;
+                }
+                #hi {
+                    margin-top: -30px;
+                }
+                .imagesize {
+                    max-height: 120px;
+                    width:  175px;
+            }
+            .leftevents div {
+                padding-left: 15px;
+            }
+             .about {
+                margin-left: 215px;
+             }
+             #lamann {
+                display: block;
+                width: 10px;
+                height: 240px;
+            }
+            }
